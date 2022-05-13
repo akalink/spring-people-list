@@ -7,15 +7,21 @@ import com.revature.PeopleList.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class PersonService {
 
     @Autowired
     PersonRepository personRepository;
 
-    public PersonDTO createPerson(Person person){
+    public Person createPerson(Person person){
         personRepository.save(person);
-        return new PersonDTO(person.getId(), person.getFullName(), person.getAge(), person.getGender(), person.getEthnicity());
+        return person;
+    }
+
+    public List<Person> getAllPeople(){
+        return personRepository.findAll();
     }
 
 

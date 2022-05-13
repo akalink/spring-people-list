@@ -5,7 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-@Table(name="people", schema = "public")
+@Table(name="person", schema = "public")
 @NoArgsConstructor @Getter @Setter @ToString @EqualsAndHashCode
 public class Person {
 
