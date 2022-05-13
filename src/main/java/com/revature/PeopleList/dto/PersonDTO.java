@@ -1,7 +1,7 @@
-package com.revature.dto;
+package com.revature.PeopleList.dto;
 
-import com.revature.model.Ethnicity;
-import com.revature.model.Gender;
+import com.revature.PeopleList.model.Ethnicity;
+import com.revature.PeopleList.model.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

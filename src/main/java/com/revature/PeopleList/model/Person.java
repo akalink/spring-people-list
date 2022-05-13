@@ -1,11 +1,11 @@
-package com.revature.model;
+package com.revature.PeopleList.model;
 
 import lombok.*;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name="people")
+@Table(name="people", schema = "public")
 @NoArgsConstructor @Getter @Setter @ToString @EqualsAndHashCode
 public class Person {
 

@@ -1,6 +1,6 @@
-package com.revature.dao;
+package com.revature.PeopleList.dao;
 
-import com.revature.model.Ethnicity;
+import com.revature.PeopleList.model.Ethnicity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

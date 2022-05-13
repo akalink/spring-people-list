@@ -1,4 +1,4 @@
-package com.revature.service;
+package com.revature.PeopleList.service;
 
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.revature.dto;
+package com.revature.PeopleList.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
