@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name="person", schema = "public")
-@NoArgsConstructor @Getter @Setter @ToString @EqualsAndHashCode
+@NoArgsConstructor @AllArgsConstructor @Getter @Setter @ToString @EqualsAndHashCode
 public class Person {
 
     @Id

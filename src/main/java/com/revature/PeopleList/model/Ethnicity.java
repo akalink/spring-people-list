@@ -7,6 +7,7 @@ import javax.persistence.*;
 @Entity
 @Table(name="ethnicity")
 @NoArgsConstructor
+@AllArgsConstructor
 @Getter
 @Setter
 @ToString
