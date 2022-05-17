@@ -12,6 +12,7 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -53,6 +54,12 @@ public class PersonServiceTest {
         Person actual = personService.createPerson(person);
 
         assertThat(actual).isNotEqualTo(person1);
+    }
+
+    @Test
+    public void getPeoplePositive(){
+        List<Person> people = personService.getAllPeople();
+        assertThat(people).isNotNull();
     }
 
 
