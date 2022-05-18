@@ -1,6 +1,5 @@
 package com.revature.PeopleList.controller;
 
-import com.revature.PeopleList.dto.GenderDTO;
 import com.revature.PeopleList.model.Gender;
 import com.revature.PeopleList.service.GenderService;
 import org.springframework.beans.factory.annotation.Autowired;
