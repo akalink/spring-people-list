@@ -1,6 +1,6 @@
-# spring-people-list
-- it is a list of people
-- it is written in Java and Spring
-- it allows anyone to add people
-- it check if your gender is valid (surprise it is)
-- it out checks if you ethnicity already exists
+# Spring-People-List
+{Front end code](https://github.com/akalink/spring-people-list-angular-frontend)
+Sprign People List is a Java Spring Boot application that creates a list of people with some generic details. The list is stored within a SQL database.
+- Shared details are store in SQL using a one-to-one relationship. These detials are checked to be valid before an entry is made.
+- The code is developed using test driven developement using JUnit and mockito.
+- The list of people can be manipulated using a REST API.
